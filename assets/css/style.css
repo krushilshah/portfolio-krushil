@@ -139,11 +139,12 @@
   
   html { font-family: var(--ff-poppins); }
   
-  body { background: var(--light-gray); }
+  /* body { background: var(--light-gray); } */
   
   
-  /* body {  background-image: linear-gradient(to right, red , yellow); */
-  /* } */
+  body {  background-image: linear-gradient(   90deg  , hsl(35, 100%, 68%),rgb(20, 15, 15)
+    );
+  }
   
   
   /*-----------------------------------*\
@@ -1767,9 +1768,9 @@
                   inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
     }
   
-    body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
+    /* body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); } */
   
-    body::-webkit-scrollbar-button { height: 60px; }
+    body::-webkit-scrollbar-button { height: 1000px; }
   
   
   
